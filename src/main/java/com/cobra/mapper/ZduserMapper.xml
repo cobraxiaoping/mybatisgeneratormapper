@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cobra.mapper.ZduserMapper">
+  <resultMap id="BaseResultMap" type="com.cobra.pojo.Zduser">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="UserName" jdbcType="VARCHAR" property="username" />
+    <result column="RealName" jdbcType="VARCHAR" property="realname" />
+    <result column="Password" jdbcType="VARCHAR" property="password" />
+    <result column="BranchInnerCode" jdbcType="VARCHAR" property="branchinnercode" />
+    <result column="IsBranchAdmin" jdbcType="VARCHAR" property="isbranchadmin" />
+    <result column="Status" jdbcType="VARCHAR" property="status" />
+    <result column="Type" jdbcType="VARCHAR" property="type" />
+    <result column="Email" jdbcType="VARCHAR" property="email" />
+    <result column="Tel" jdbcType="VARCHAR" property="tel" />
+    <result column="Mobile" jdbcType="VARCHAR" property="mobile" />
+    <result column="LastLoginTime" jdbcType="TIMESTAMP" property="lastlogintime" />
+    <result column="LastLoginIP" jdbcType="VARCHAR" property="lastloginip" />
+    <result column="Prop1" jdbcType="VARCHAR" property="prop1" />
+    <result column="Prop2" jdbcType="VARCHAR" property="prop2" />
+    <result column="Prop6" jdbcType="VARCHAR" property="prop6" />
+    <result column="Prop5" jdbcType="VARCHAR" property="prop5" />
+    <result column="Prop4" jdbcType="VARCHAR" property="prop4" />
+    <result column="Prop3" jdbcType="VARCHAR" property="prop3" />
+    <result column="Memo" jdbcType="VARCHAR" property="memo" />
+    <result column="AddTime" jdbcType="TIMESTAMP" property="addtime" />
+    <result column="AddUser" jdbcType="VARCHAR" property="adduser" />
+    <result column="ModifyTime" jdbcType="TIMESTAMP" property="modifytime" />
+    <result column="ModifyUser" jdbcType="VARCHAR" property="modifyuser" />
+    <result column="LoginErrorCount" jdbcType="BIGINT" property="loginerrorcount" />
+    <result column="LoginErrorTime" jdbcType="TIMESTAMP" property="loginerrortime" />
+    <result column="ModifyPassStatus" jdbcType="VARCHAR" property="modifypassstatus" />
+    <result column="ForbiddenLoginTime" jdbcType="TIMESTAMP" property="forbiddenlogintime" />
+    <result column="LastModifyPassTime" jdbcType="TIMESTAMP" property="lastmodifypasstime" />
+  </resultMap>
+</mapper>
